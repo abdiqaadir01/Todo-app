@@ -13,7 +13,7 @@
         <h1 class="text-4xl"> My todo app</h1> 
     </div>
     <hr class="my-4">
-    <div class="px-5 py-8 flex flex-col space-y-5">
+    <div id="divl" class="px-5 py-8 flex flex-col space-y-5">
     <div class="flex justify-between items-center ">
         <h4>todo 1</h4>
         <button class="bg-green-500 rounded-lg p-2">Done</button>
@@ -31,11 +31,13 @@
         <hr class="my-4">
       <div class="px-5 flex gap-x-4">
         <input type="text" class="flex-1 py-2 px-4 rounded-lg text-indigo-400" placeholder="todo">
-        <button class="bg-orange-400 p-2 rounded-lg shadow-lg">Add</button>
+        <button onclick="Addtodo()" class="bg-orange-400 p-2 rounded-lg shadow-lg">Add</button>
       </div>
     </div>
 </div> </div>
 
+
+<script src="./main.js"></script>
     
 </body>
 </html>
